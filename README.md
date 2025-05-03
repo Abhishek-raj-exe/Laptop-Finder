@@ -15,9 +15,17 @@ hp_show_data()
 ## SQL usage
 
 Create a database in mysql with table consisting of three columns
-Brand_name varchar(15) 
-Series_name varchar(30) 
-Model_num varchar(40)
+
+```
+CREATE DATABASE your_database_name;
+USE your_database_name;
+CREATE TABLE Persons (
+    Brand_name varchar(15),
+    Series_name varchar(30), 
+    Model_num varchar(40) PRIMARY KEY
+)
+```
+
 
 ### Enter your SQL credentials:-
 navigate to  HP\sql_connect_hp.py & Lenevo\sql_connect_len.py
